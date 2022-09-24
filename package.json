@@ -1,5 +1,5 @@
 {
- "name": "uniqueselector",
+ "name": "@danielcobo/uniqueselector",
  "version": "1.0.0",
  "description": "Get unique selector for given element",
  "main": "src/index.js",
