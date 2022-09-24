@@ -21,9 +21,7 @@ Get unique selector for given element
 
 ## 🎒 Requierments
 
-To use this package you will need:
-
-- [NodeJS](https://nodejs.org/en/)
+No requierments.
 
 ## 🚀 Quickstart
 
@@ -34,13 +32,13 @@ To use this package you will need:
 Install using the terminal:
 
 ```cli
-npm install uniqueselector
+npm install @danielcobo/uniqueselector
 ```
 
 Require the module:
 
 ```js
-const uniqueselector = require('uniqueselector');
+const uniqueselector = require('@danielcobo/uniqueselector');
 ```
 
 <sub>**Note:** In case you're wondering, **@danielcobo/** is just a [namespace scope](https://docs.npmjs.com/about-scopes/) - an NPM feature. Scopes make it easier to name modules and improve [security](https://github.blog/2021-02-12-avoiding-npm-substitution-attacks/).</sub>
@@ -50,13 +48,13 @@ const uniqueselector = require('uniqueselector');
 Declare it as a global variable named uniqueselector by including this script before any script you want to use it in:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/uniqueselector@1/dist/iife/uniqueselector.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@danielcobo/uniqueselector@1/dist/iife/uniqueselector.min.js"></script>
 ```
 
 Or import it as an [ECMAScript module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import):
 
 ```js
-import * as uniqueselector from 'https://cdn.jsdelivr.net/npm/uniqueselector@1/dist/esm/uniqueselector.min.js';
+import * as uniqueselector from 'https://cdn.jsdelivr.net/npm/@danielcobo/uniqueselector@1/dist/esm/uniqueselector.min.js';
 ```
 
 Also, feel free to download the file if you prefer not to use [jsdelivr](https://www.jsdelivr.com). In that case just replace the url with the relative file path.
